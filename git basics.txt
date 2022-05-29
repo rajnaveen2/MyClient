@@ -1,11 +1,23 @@
 
-
+git hun=b token - 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
 -- git init will initialyze the local diretory to git repository
 git init
 
+git config user.email "rajnaveen29@gmail.com"
+git config user.name "rajnaveen2"
 
 --git status to show the untracked files. we can use git add to add them ton commit list
 git status
 
 -- git add to add the files so we can commit them
 git add
+
+--Git commit pushed code to staging
+git commit -m "comment for commit"
+
+-- now we need a gir repo to push our code. If we don't have one we can create it by going to https://github.com/. 
+--use the repo url to push out=r local code or to get update from others.
+-- origin is the name of our remote, we can call it anything , but by convention we keep it origin.
+git remote add origin https://github.com/rajnaveen2/MyClient.git  
+git branch -M main
+git push -u origin main
