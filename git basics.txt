@@ -1,0 +1,11 @@
+
+
+-- git init will initialyze the local diretory to git repository
+git init
+
+
+--git status to show the untracked files. we can use git add to add them ton commit list
+git status
+
+-- git add to add the files so we can commit them
+git add
